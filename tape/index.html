@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Vite App</title>
+    
+</head>
+
+<body>
+    <div id="canvas">
+        <canvas class="webgl"></canvas>
+    </div>
+
+    <div class="colors">
+        <label for="logocolor">logocolor</label>
+        <input type="color" id="logocolor" value="#ff0000">
+        <br>
+        <label for="backcolor"> backcolor</label>
+        <input type="color" id="backcolor" value="#ff0000">
+        <br> 
+        <input type="file" name="image" id="image">
+    </div>
+
+    <script type="module" src="/send.js"></script>
+</body>
+
+</html>
